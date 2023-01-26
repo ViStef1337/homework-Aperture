@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+/* header styles start */
+header{
+    background-color: black;
+    padding: 24px 0;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 32px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__item{
+    margin-right: 32px;
+}
+.header__item:first-child a{
+    font-size: 13px;
+}
+.header__item:last-child a{
+    background-color: white;
+    color: black;
+    padding: 11px 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header__link{
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 14px;
+}
+/* header styles end */
+
+/* Main banner styles start */
+.main__banner{
+    background-image: url("../images/shore.jpg");
+    background-size: cover;
+    height: calc(100vh - 79px);
+    position: relative;
+}
+.main__banner-wrapper{
+    max-width: 580px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.intro__subtitle{
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.intro{
+    color: white;
+    font-size: 54px;
+    line-height: 59px;
+    margin-bottom: 18px;
+}
+.intro__subtitle-desc{
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* Main banner styles end */
+
+/* Help styles start */
+.help{
+    background-color: black;
+}
+.help__wrapper{
+    max-width: 571px;
+    text-align: center;
+    margin: auto;
+    padding: 113px 0 108px 0;
+}
+.title__help{
+    color: white;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+.help__subtitle{
+    color: #C0C0C0;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+.help__link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 11px 11px 11px 5px;
+    border-radius: 14px;
+}
+.help__link::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 10px;
+}
+/* Help styles end */
