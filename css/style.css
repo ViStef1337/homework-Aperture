@@ -123,7 +123,8 @@ header{
 }
 .help__link::before{
     content: '';
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     width: 25px;
     height: 25px;
     border-radius: 10px;
