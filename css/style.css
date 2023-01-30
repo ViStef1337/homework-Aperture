@@ -68,6 +68,7 @@ header{
     left: 0;
     right: 0;
     margin: auto;
+    margin-bottom: 71px;
 }
 .intro__subtitle{
     color: #C0C0C0;
@@ -120,11 +121,12 @@ header{
     line-height: 20px;
     padding: 11px 11px 11px 5px;
     border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
 }
 .help__link::before{
     content: '';
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
     width: 25px;
     height: 25px;
     border-radius: 10px;
@@ -132,3 +134,108 @@ header{
     margin-right: 10px;
 }
 /* Help styles end */
+
+/* Mountain styles start */
+.mountain{
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.section__container{
+    margin-right: 119px;
+}
+.section__title{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.section__subtitle{
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.bottom__icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 41px;
+    right: 40px;
+}
+.icon{
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 16px;
+}
+.icon:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.icon:nth-child(2):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/circle.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.icon:nth-child(3):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/iso.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+    width: 32px;
+}
+.icon:nth-child(4):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/lock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+    width: 10px;
+    height: 16px;
+}
+/* Mountain styles end */
+
+/* Leaf styles start */
+.leaf{
+    background-image: url("../images/leaf.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+/* Leaf styles end */
+
+/* Night styles start */
+.night{
+    background-image: url("../images/night.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+/* Night styles end */
