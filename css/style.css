@@ -60,7 +60,7 @@ header{
     align-items: flex-end;
     background-image: url("../images/shore.jpg");
     background-size: cover;
-    height: calc(100vh - 79px);
+    height: calc(100vh - 66px);
     position: relative;
 }
 .main__banner-wrapper{
